@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex,nofollow">
+	<title>marukun鯖公式サイト</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script>
+		$(function() {
+			const hum = $('#hamburger, .close')
+			const nav = $('.sp-nav')
+			hum.on('click', function(){
+				nav.toggleClass('toggle');
+			});
+		});
+	  </script>
+</head>
+<body>
+	<header id="header">
+		<h1 class="slide-left show">
+			<a href="/">marukun server</a>
+		</h1>
+		<nav class="pc-nav slide-right show">
+			<ul>
+				<li><a href="#about">about</a></li>
+				<li><a href="#info">information</a></li>
+				<li><a href="#guide">guide</a></li>
+				<li><a href="#rule">rule</a></li>
+			</ul>
+		</nav>
+		<nav class="sp-nav">
+			<ul>
+				<li><a href="#">about</a></li>
+				<li><a href="#">information</a></li>
+				<li><a href="#">guide</a></li>
+				<li><a href="#">rule</a></li>
+				<li class="close"><span>閉じる</span></li>
+			</ul>
+		</nav>
+		<div id="hamburger" class="slide-right show">
+			<span></span>
+		</div>
+	</header>
+	<div class="main-visual">
+		<div class="slide-bottom show">
+			<script type="text/javascript">
+				function slideSwitch() {
+				   var $active = $('#slideshow img.active');
+				
+				   if ( $active.length == 0 ) $active = $('#slideshow img:last');
+				
+				   var $next =  $active.next().length ? $active.next()
+					  : $('#slideshow img:first');
+				
+				   $active.addClass('last-active');
+				
+				   $next.css({opacity: 0.0})
+					  .addClass('active')
+					  .animate({opacity: 1.0}, 1000, function() {
+						   $active.removeClass('active last-active');
+					  });
+				}
+				
+				$(function() {
+				   setInterval( "slideSwitch()", 3000 );
+				});
+				</script>
+			<p id="slideshow">
+				<img src="top.png" alt="画像1" class="active">
+				<img src="top-2.png" alt="画像2">
+				<img src="top-3.png" alt="画像3">
+				<img src="top-4.png" alt="画像4">
+				<img src="top-5.png" alt="画像5">
+				<img src="top-6.png" alt="画像5">
+				<img src="top-7.png" alt="画像5">
+				<img src="top-8.png" alt="画像5">
+			 </p>
+		</div>
+	</div>
+
+	<section id="about">
+		<h2 class="slide-bottom show">ABOUT<span></span></h2>
+		<p class="slide-bottom show">marukun鯖はクリエイティブ、サバイバル、銃撃戦等ミニゲームが楽しめるminecraftサーバーです。<br>統合版(switch,スマホ等)、java版に対応しています。<br>
+			※java版をメインに作られているサーバーなので、統合版で入ると一部機能が利用できません。java版を推奨します。
+		</p>
+		<h2 class="slide-bottom show" id="info">information</h2>
+		<p class="slide-bottom show">バージョン minecraft java edition1.16.5<br>
+        ※統合版は最新のものでおｋ<br>
+		ip 113.148.41.177<br>
+		slackチャンネル <a href="https://n-jr.slack.com/archives/C01UJCQL71T"class="mozityu">times_marukun鯖</a><br>
+<h3 class="slide-bottom show">status</h3>
+			<a href="#"><img src="http://tt0.link/minecraft/others/servercheck/img/default.php?ip=113.148.41.177&port=25565"></a>
+		</p>
+		</section>
+	<section id="service">
+		<h3 class="slide-bottom show" id="guide">参加方法<span></span></h3>
+		<div>
+			<div class="icon_list">
+				<ul class="flex">
+					<li class="slide-left show"><img src="https://pbs.twimg.com/profile_images/1336182241613938689/MabYhp8e_400x400.jpg" alt="テキスト"><p>optfineを導入します。</p></li>
+					<li class="slide-left show"><img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/GrassBlock_HighRes.png" alt="テキスト"><p>minecraft1.16.5を起動します。</p></li>
+					<li class="slide-left  show"><img src="https://media.istockphoto.com/vectors/wifi-icon-vector-id1261027671?k=6&m=1261027671&s=612x612&w=0&h=a_hxWJN9hNMW0yRO7TI76-vvOC18hXaCpCJPad5OU2Q=" alt="テキスト"><p>マルチプレイをクリック後→「サーバーを追加」からipアドレスに113.148.41.177を入力します。(サーバー名は任意）</p></li>
+					<li class="slide-left  show"><img src="https://icon-pit.com/wp-content/uploads/2019/01/data-base_server_icon_4213-300x300.png" alt="テキスト"><p>追加したら、接続をクリックします。これで完了！</p></li>
+				</ul>
+			</div>
+			<div class="slide-right show">サーバーの参加方法の詳細はこちら <a href="https://minecraft-jp.pw/multiplayer0517/" class="mozityu">java editionの場合</a> <a href="https://www.aizulab.com/blog/minecraft-server/#i-9" class="mozityu">統合版の場合</a></p>
+			<div class="slide-bottom show"><a href="https://nj-clucker.com/games/install-minecraft-mod-optifine/" class="button"> optfine導入方法</a></div>
+		</div>
+	</section>
+	<section id="guide-server">
+		<div class="guide-server">
+			<h2 class="slide-bottom show">サーバー案内</h2>
+			<p>サーバーに入るとロビーにスポーンします。ロビーには複数のワールドへのゲートがありクリエイティブ、サバイバル、資源ワールド等へのゲートがあります。<br>
+				ここではメインであるクリエイティブモードについて紹介していきます。<br>
+				<img src="gate image.png" height="400" width="720" class="slide-bottom show">
+				<h2> </h2>
+				<h2 class="slide-bottom show">チュートリアル１ 観光してみよう</h2>
+				クリエイティブワールドへのポータルに入ったら、クリエイティブロビーに出ます。<br>
+				手前にある「クリエにする」看板の前にある感圧版を踏んでクリエにしたら、町を観光してみましょう。<br>
+				<img src="kanatu.png" height="400" width="720" class="slide-bottom show">
+				<h2></h2>
+				<h2 class="slide-bottom show">チュートリアル２ 家を決めよう</h2>
+				marukun鯖で家に住むには、マンションなどの空き家に住む、もしくは自分で作る方法があります。<br>
+				家を建てるには、空き地を見つけ、立ててください。@marukun_鯖官やってるよに連絡すると対応できるときに空き地に案内します。<br>
+				空き家に住む場合は、サーバーにあるmarukunレーベンマンションに看板を設置して住んでください。<br>
+				<img src="home image.png" height="400" width="720" class="slide-bottom show">
+				<h2>   </h2>
+				他にもmarukun鯖ではいろいろなことができます。お気軽にslackチャンネル <a href="https://n-jr.slack.com/archives/C01UJCQL71T"class="mozityu">times_marukun鯖</a>で質問してみましょう。
+
+			</p>
+			<h2>   
+				<br>
+				<br>
+				<br>
+				<br>
+			</h2>
+			<h2 class="rule slide-bottom show" id="rule">サーバールール</h2>
+			<p>禁止事項<br>
+		    サーバーに負荷をかける事<br>
+			高速クロック回路の常時使用<br>
+			かまどの大量設置<br>
+			mobを大量に敷き詰める<br>
+			リピートsummonコマンドなどのサーバーに負荷をかけるコマンド<br>
+		    その他負荷がかかっていると主が判断した場合削除をお願いする事が有ります<br>
+		    荒らし、嫌がらせ行為<br>
+			他人の建築の破壊<br>
+			banやstop、kickなどのコマンド連続使用（主のみが使います)<br>
+			その他荒らしと判断した場合は容赦なくbanします。<br>
+			modの使用は基本的におｋですが、主が不適切と判断した場合は削除をお願いする事が有ります。<br>
+			<h3 class="slide-bottom show">ルールを守って楽しくプレイしましょう！</h3>
+
+			</p>
+		</div>
+	</section>
+	<footer>
+		<small>webdesign:marukun</small>
+	</footer>	
+<script>
+	//フェードイン用のコードです
+	$(function(){
+		$(window).on('load scroll', function() {
+			$(".show").each(function() {
+				var winScroll = $(window).scrollTop();
+				var winHeight = $(window).height();
+				var scrollPos = winScroll + (winHeight * 0.9);
+				if($(this).offset().top < scrollPos) {
+					$(this).css({opacity: 1, transform: 'translate(0, 0)'});
+				}
+			});
+		});
+	});
+	//フェードイン用のコードはここまでです
+
+	//ヘッダーの高さと背景色の変更
+	$(function () {
+		const header = $('#header');
+		$(window).on('load scroll' ,function () {
+			var headerHeight = header.innerHeight();
+
+			$(window).on('scroll' ,function () {
+				if ( $(this).scrollTop() > 100 ) {
+					header.addClass('min-header');
+				} else {
+					header.removeClass('min-header');
+				}
+			});
+		});
+});
+</script>	
+</body>
+</html>
