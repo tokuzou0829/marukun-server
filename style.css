@@ -344,7 +344,7 @@ table {
 #slideshow {
 	position: center;
 	width:  1920px; /* 画像の横幅に合わせて記述 */
-	height: 1080px; /* 画像の高さに合わせて記述 */
+	height: 1300px; /* 画像の高さに合わせて記述 */
  }
  #slideshow img {
 	position: absolute;
