@@ -80,6 +80,22 @@
 				<li><a href="#guide">guide</a></li>
 				<li><a href="#rule">rule</a></li>
 			</ul>
+			<script>
+			$(function(){
+				$('a[href^="#"]').click(function() {
+				  var speed = 1000;
+				  var href = $(this).attr("href");
+				  var target = $(href == "#" ? 'html' : href);
+				  var position = target.offset().top;
+			  
+				  /* この行を追加 */
+				  position -= 75; /* ヘッダーの高さ分のpxをマイナスする */
+			  
+				  $('body,html').animate({scrollTop:position}, speed, 'swing');
+				  return false;
+				});
+			  });
+			</script>
 		</nav>
 		<nav class="sp-nav">
 			<ul>
